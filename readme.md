@@ -9,4 +9,4 @@ The diagram shows the high level functionality.
 There is only one actor-Customer.A customer can order and the type of order will decide is it Normal order or special order.
 
 **3.AcitivityDiagram.drwaio**
-The diagra shows the flow of actions.process is started when the customer sends an order request and thenupon confirmation by the system,checks if it is normal order.if it is,then confirms the order else checks if it is special order.If it is special order,then confirms it else  terminates.Upon confimration of order,the order is dispatched and the process is terminated.
+The diagra shows the flow of actions.process is started when the customer sends an order request and then upon confirmation by the system,checks if it is normal order.if it is,then confirms the order else checks if it is special order.If it is special order,then confirms it else  terminates.Upon confimration of order,the order is dispatched and the process is terminated.
