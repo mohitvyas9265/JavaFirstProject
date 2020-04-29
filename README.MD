@@ -13,6 +13,8 @@ The diagra shows the flow of actions.process is started when the customer sends 
 # Readme.md week 3
 
 **Shapes.java is on location java-project/src/main/java/com/sapient/shapes/**
+
 **Command_Line1.java is a java class to read n numbers from command line argument and display sum, avg and biggest and smallest.**
+
 **Command_Line2.java is a java class  to read n numbers from key board and display all the numbers, sort the number, and do  search.**
 
