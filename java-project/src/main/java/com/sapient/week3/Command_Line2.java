@@ -3,12 +3,12 @@ package com.sapient.week3;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class command_line2 
+public class Command_Line2 
 {
 	public void read()
 	{
 		Scanner sc=new Scanner(System.in);
-		int n = Integer.ma
+		int n = sc.nextInt();
 		 int arr[]=new int[n];
 		 int temp;
 		for(int i=0;i<n;i++)

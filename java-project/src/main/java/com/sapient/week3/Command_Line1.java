@@ -1,3 +1,6 @@
+package com.sapient.week3;
+import java.util.Scanner;
+
 public class Command_Line1 
 {
 	public void setData(int n)
