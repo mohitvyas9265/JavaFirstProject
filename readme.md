@@ -1,4 +1,4 @@
-# Readme.md
+# Readme.md week 2
 
 **1.ClassDiagram.drawio**
 The diagram shows relatioship between objects of the class namely-Customer,Order,SpecialOrder & NormalOrder.
@@ -10,3 +10,6 @@ There is only one actor-Customer.A customer can order and the type of order will
 
 **3.AcitivityDiagram.drwaio**
 The diagra shows the flow of actions.process is started when the customer sends an order request and then upon confirmation by the system,checks if it is normal order.if it is,then confirms the order else checks if it is special order.If it is special order,then confirms it else  terminates.Upon confimration of order,the order is dispatched and the process is terminated.
+# Readme.md week 3
+
+**Shapes.java is on location java-project/src/main/java/com/sapient/shapes/**
