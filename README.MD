@@ -18,3 +18,10 @@ The diagra shows the flow of actions.process is started when the customer sends 
 
 **Command_Line2.java is a java class  to read n numbers from key board and display all the numbers, sort the number, and do  search.**
 
+**num2word is a java class which has static method fig_to_words  which takes amount a long and converts figure to words and return a string.**
+
+# Readme.md week 4
+
+**Int_Arr_Process.java**
+
+**matrix.java**
