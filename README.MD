@@ -18,3 +18,7 @@ The diagra shows the flow of actions.process is started when the customer sends 
 
 **Command_Line2.java is a java class  to read n numbers from key board and display all the numbers, sort the number, and do  search.**
 
+# Readme.md week 4
+
+**Int_Arr_Process.java**
+**matrix.java**
