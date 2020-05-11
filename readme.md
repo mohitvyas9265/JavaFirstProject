@@ -25,11 +25,3 @@ The diagra shows the flow of actions.process is started when the customer sends 
 **Int_Arr_Process.java**
 
 **matrix.java**
-
-# Readme.md week 5
-
-**Business.java reads and performs oerations on students**
-
-**Display.java display files of a given directory.**
-
-**TicToc.java displays tic toc**
