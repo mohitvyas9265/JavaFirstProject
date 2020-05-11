@@ -3,6 +3,8 @@ package com.sapient.week4;
 import java.util.Arrays;
 import java.util.Scanner;
 
+import com.sapient.week3.num2word;
+
 public class Int_Arr_Process
 {
 	int arr[];
@@ -34,12 +36,13 @@ public class Int_Arr_Process
 		arr=new int[n];
 		for(int i=0;i<n;i++)
 			arr[i]=sc.nextInt();
+		sc.close();
 	}
 	public void display()
 	{
-		for(int i:arr)
+		for(int i=0;i<arr.length;i++)
 			System.out.println(arr[i]);
-		for(int i:arr)
+		for(int i=0;i<arr.length;i++)
 			System.out.print(arr[i]+ " ");
 	}
 	public void sort()
@@ -63,6 +66,7 @@ public class Int_Arr_Process
 		int sum=0;
 		for(int i=0;i<arr.length;i++)
 		{
+			System.out.println(arr[i]);
 			sum+=arr[i];
 		}
 		System.out.println("Sum is "+sum);		
@@ -82,5 +86,15 @@ public class Int_Arr_Process
 				temp=arr[i];			
 		}
 		System.out.println("Second biggest is "+temp);	
+	}
+	public static void main(String [] args)
+	{
+		Int_Arr_Process obj=new Int_Arr_Process(5);
+		obj.readArray();
+		obj.minMax();		
+		obj.secondBiggest();
+		obj.sort();
+		obj.display();
+		
 	}
 }
