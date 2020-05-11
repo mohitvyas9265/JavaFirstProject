@@ -13,29 +13,37 @@ import java.util.Scanner;
 
 public class Business 
 {
-	int n;
 	
+	int n;
+	Scanner sc=new Scanner(System.in);
 	Student[] st;
 	Business()
 	{
-	n=2;
-	st=new Student[n];
+		
+		n=sc.nextInt();
+		st=new Student[n];
+		for(int i=0;i<n;i++)
+		{
+			st[i]=new Student();
+		}
+		
 	}
 	public void read()
 	{
-		Scanner sc=new Scanner(System.in);
+		
 		for(int i=0;i<n;i++)
 		{
+			System.out.print("Id");
 			int id=sc.nextInt();
-			System.out.println("hi");
+			System.out.print("name");
 			String name=sc.next();
-			System.out.println("hi");
+			System.out.print("city");
 			String city=sc.next();
 			st[i].setId(id);
 			st[i].setName(name);
 			st[i].setCity(city);
-			sc.close();
 		}
+		sc.close();
 	}
 	public void display()
 	{
@@ -64,7 +72,7 @@ public class Business
 	{
 		for(int i=0;i<n;i++)
 		{
-			if(st[i].getCity()==city)
+			if(st[i].getCity().equals(city))
 			{
 				System.out.println(st[i].getId()+" "+st[i].getName()+" "+st[i].getCity());				
 			}
@@ -87,8 +95,11 @@ public class Business
 	public static void main(String[] args) throws IOException 
 	{
 		Business b=new Business();
-		b.read();
+		b.read(); 
 		b.display();
+		b.display("d");
+		b.displayCitySorted();
+		b.displayNameSorted();
 	}
 	
 	
