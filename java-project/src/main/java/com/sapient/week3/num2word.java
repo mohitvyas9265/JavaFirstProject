@@ -47,6 +47,12 @@ public class num2word
 			}
 			return words;
 		}
+		public static void main(String [] args)
+		{
+			num2word obj=new num2word();
+			obj.fig_to_words(199);
+			
+		}
 
 
 }
