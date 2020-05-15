@@ -33,3 +33,11 @@ The diagra shows the flow of actions.process is started when the customer sends 
 **TicToc.java displays TicToc using Thread**
 
 **Business.java reads and performs operation on Student.java**
+
+# Readme.md week 6
+
+**Index.html displas calculator/login/report**
+
+**Style.css contains css stylng used for index.html**
+
+
