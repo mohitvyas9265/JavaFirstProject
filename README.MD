@@ -47,8 +47,11 @@ The diagra shows the flow of actions.process is started when the customer sends 
 **script_week7.js contains the JavaScript code for the same**
 
 **com.sapient.week7 is the maven sprng project**
+
 **spring.xml contains the beans**
+
 **Employee.java is the POJO class**
+
 **Demo.java is the bean container class**
 
 
