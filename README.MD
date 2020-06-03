@@ -33,3 +33,28 @@ The diagra shows the flow of actions.process is started when the customer sends 
 **TicToc.java displays TicToc using Thread**
 
 **Business.java reads and performs operation on Student.java**
+
+# Readme.md week 6
+
+**Index.html displays calculator/login/report**
+
+**Style.css contains css stylng used for index.html**
+
+# Readme.md week 7
+
+**week7.html displays calculator/add/find &show employee**
+
+**script_week7.js contains the JavaScript code for the same**
+
+**com.sapient.week7 is the maven sprng project**
+
+**spring.xml contains the beans**
+
+**Employee.java is the POJO class**
+
+**Demo.java is the bean container class**
+
+
+
+=======
+
