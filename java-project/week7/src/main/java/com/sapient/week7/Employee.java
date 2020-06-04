@@ -24,4 +24,9 @@ public class Employee
 	public void setCity(String city) {
 		this.city = city;
 	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Id=" + id + "name= " + name + "city= " + city ;
+	}
 }
