@@ -59,15 +59,18 @@ The diagra shows the flow of actions.process is started when the customer sends 
 
 **script_week7.js contains the JavaScript code for the same**
 
-**com.sapient.week7 is the maven spirng project**
+
+**com.sapient.week7 is the maven spring project**
 
 week7/src/main/java
+=======
 
 **spring.xml contains the beans**
 
 **Employee.java is the POJO class**
 
 **Demo.java is the bean container class**
+
 
 # Readme.md week 8
 
@@ -90,5 +93,10 @@ week8/src/main/java
 **Calculate.java implements calculator based on Single Responsibility Principle & Liskov Substitution Principle**
 
 
+
+=======
+
+
+=======
 
 
