@@ -1,9 +1,9 @@
 # Readme.md week 1
 
-**CheckEven.java**
+java-project/src/main/java/com/sapient/week1/**CheckEven.java**
 contains boolean method check(int x) to check whether the number is even or not.
 
-**AppTest.java**
+java-project/src/test/java/com/sapient/week1/**AppTest.java**
 contains the test methods to test the main class functions.
 
 # Readme.md week 2
@@ -21,6 +21,8 @@ The diagra shows the flow of actions.process is started when the customer sends 
 
 # Readme.md week 3
 
+java-project/src/main/java/com/sapient/week3
+
 **Shapes.java is on location java-project/src/main/java/com/sapient/shapes/**
 
 **Command_Line1.java is a java class to read n numbers from command line argument and display sum, avg and biggest and smallest.**
@@ -32,16 +34,24 @@ The diagra shows the flow of actions.process is started when the customer sends 
 
 # Readme.md week 4
 
-**Int_Arr_Process.java**
+java-project/src/main/java/com/sapient/week4/
 
-**matrix.java**
+**Int_Arr_Process.java is a java class to processs integer array**
+
+**matrix.java is a java class to process a matrix array.**
+
+**Num_Process.java is a java interface with abbstract method cal()**
 
 
 # Readme.md week 5
 
+java-project/src/main/java/com/sapient/week5/
+
 **Diplay.java displays directory of specfied file path**
 
 **TicToc.java displays TicToc using Thread**
+
+**Student.java is a  POJO class to store id, name and city**
 
 **Business.java reads and performs operation on Student.java**
 
