@@ -72,15 +72,21 @@ week7/src/main/java
 # Readme.md week 8
 
 week8/src/main/java **Number.java contains method-checkPrime(),checkPalindrome() & checkAmstrong()**
+
 week8/src/test/java **NumberTest.java contains method to perform functional and non-functional test on checkPrime(),checkPalindrome() & checkAmstrong()**
+
 week8/src/main/java **Employee.java is a POJO containing id,name & city**
+
 week8/src/main/java **AddEmployee.java conatins method addEmployee() to add employee object to the list & getEmployee() to return Employee object value based on id**
+
 week8/src/test/java **AddEmployeeTest.java contains method to perform test on addEmployee() & getEmployee()**
 
-week8/sr/main/java
+week8/src/main/java
 
 **CalculateSingleResponsibilty.java contains method calculate() to calculate based on Single Responsibility Principle**
+
 **CalculateLiskovSubstitution.java contains method calculate() to calculate based on Liskov Substitution Principle **
+
 **Calculate.java implements calculator based on Single Responsibility Principle & Liskov Substitution Principle**
 
 
