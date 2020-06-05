@@ -1,3 +1,11 @@
+# Readme.md week 1
+
+**CheckEven.java**
+contains boolean method check(int x) to check whether the number is even or not.
+
+**AppTest.java**
+contains the test methods to test the main class functions.
+
 # Readme.md week 2
 
 **1.ClassDiagram.drawio**
@@ -10,6 +18,7 @@ There is only one actor-Customer.A customer can order and the type of order will
 
 **3.AcitivityDiagram.drwaio**
 The diagra shows the flow of actions.process is started when the customer sends an order request and then upon confirmation by the system,checks if it is normal order.if it is,then confirms the order else checks if it is special order.If it is special order,then confirms it else  terminates.Upon confimration of order,the order is dispatched and the process is terminated.
+
 # Readme.md week 3
 
 **Shapes.java is on location java-project/src/main/java/com/sapient/shapes/**
@@ -20,11 +29,13 @@ The diagra shows the flow of actions.process is started when the customer sends 
 
 **num2word is a java class which has static method fig_to_words  which takes amount a long and converts figure to words and return a string.**
 
+
 # Readme.md week 4
 
 **Int_Arr_Process.java**
 
 **matrix.java**
+
 
 # Readme.md week 5
 
@@ -34,11 +45,13 @@ The diagra shows the flow of actions.process is started when the customer sends 
 
 **Business.java reads and performs operation on Student.java**
 
+
 # Readme.md week 6
 
 **Index.html displays calculator/login/report**
 
 **Style.css contains css stylng used for index.html**
+
 
 # Readme.md week 7
 
@@ -46,7 +59,11 @@ The diagra shows the flow of actions.process is started when the customer sends 
 
 **script_week7.js contains the JavaScript code for the same**
 
-**com.sapient.week7 is the maven sprng project**
+
+**com.sapient.week7 is the maven spring project**
+
+week7/src/main/java
+=======
 
 **spring.xml contains the beans**
 
@@ -55,6 +72,31 @@ The diagra shows the flow of actions.process is started when the customer sends 
 **Demo.java is the bean container class**
 
 
+# Readme.md week 8
+
+week8/src/main/java **Number.java contains method-checkPrime(),checkPalindrome() & checkAmstrong()**
+
+week8/src/test/java **NumberTest.java contains method to perform functional and non-functional test on checkPrime(),checkPalindrome() & checkAmstrong()**
+
+week8/src/main/java **Employee.java is a POJO containing id,name & city**
+
+week8/src/main/java **AddEmployee.java conatins method addEmployee() to add employee object to the list & getEmployee() to return Employee object value based on id**
+
+week8/src/test/java **AddEmployeeTest.java contains method to perform test on addEmployee() & getEmployee()**
+
+week8/src/main/java
+
+**CalculateSingleResponsibilty.java contains method calculate() to calculate based on Single Responsibility Principle**
+
+**CalculateLiskovSubstitution.java contains method calculate() to calculate based on Liskov Substitution Principle **
+
+**Calculate.java implements calculator based on Single Responsibility Principle & Liskov Substitution Principle**
+
+
 
 =======
+
+
+=======
+
 
