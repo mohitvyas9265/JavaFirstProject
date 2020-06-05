@@ -5,7 +5,6 @@ contains boolean method check(int x) to check whether the number is even or not.
 
 **AppTest.java**
 contains the test methods to test the main class functions.
-=======
 
 # Readme.md week 2
 
@@ -19,7 +18,7 @@ There is only one actor-Customer.A customer can order and the type of order will
 
 **3.AcitivityDiagram.drwaio**
 The diagra shows the flow of actions.process is started when the customer sends an order request and then upon confirmation by the system,checks if it is normal order.if it is,then confirms the order else checks if it is special order.If it is special order,then confirms it else  terminates.Upon confimration of order,the order is dispatched and the process is terminated.
-=======
+
 # Readme.md week 3
 
 **Shapes.java is on location java-project/src/main/java/com/sapient/shapes/**
@@ -29,14 +28,14 @@ The diagra shows the flow of actions.process is started when the customer sends 
 **Command_Line2.java is a java class  to read n numbers from key board and display all the numbers, sort the number, and do  search.**
 
 **num2word is a java class which has static method fig_to_words  which takes amount a long and converts figure to words and return a string.**
-=======
+
 
 # Readme.md week 4
 
 **Int_Arr_Process.java**
 
 **matrix.java**
-=======
+
 
 # Readme.md week 5
 
@@ -45,14 +44,14 @@ The diagra shows the flow of actions.process is started when the customer sends 
 **TicToc.java displays TicToc using Thread**
 
 **Business.java reads and performs operation on Student.java**
-=======
+
 
 # Readme.md week 6
 
 **Index.html displays calculator/login/report**
 
 **Style.css contains css stylng used for index.html**
-======
+
 
 # Readme.md week 7
 
@@ -69,7 +68,7 @@ week7/src/main/java
 **Employee.java is the POJO class**
 
 **Demo.java is the bean container class**
-=======
+
 # Readme.md week 8
 
 week8/src/main/java **Number.java contains method-checkPrime(),checkPalindrome() & checkAmstrong()**
