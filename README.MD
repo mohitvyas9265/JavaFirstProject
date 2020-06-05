@@ -87,7 +87,7 @@ week8/src/main/java
 
 **CalculateSingleResponsibilty.java contains method calculate() to calculate based on Single Responsibility Principle**
 
-**CalculateLiskovSubstitution.java contains method calculate() to calculate based on Liskov Substitution Principle **
+**CalculateLiskovSubstitution.java contains method calculate() to calculate based on Liskov Substitution Principle**
 
 **Calculate.java implements calculator based on Single Responsibility Principle & Liskov Substitution Principle**
 
