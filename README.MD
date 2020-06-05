@@ -63,7 +63,6 @@ The diagra shows the flow of actions.process is started when the customer sends 
 **com.sapient.week7 is the maven spring project**
 
 week7/src/main/java
-=======
 
 **spring.xml contains the beans**
 
