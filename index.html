@@ -3,6 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <link href="style.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <meta charset="utf-8" />
     <title> Sapient week 6 assignment</title>
 </head>
@@ -50,10 +51,48 @@
 
                 </form>
             </div>
-            <div class="report">
-                <table>
-
-                </table>
+            <div class="container" id="searchDiv">
+        <h1>Generate Report</h1>
+        <form class="form-inline" onsubmit="return false">
+            <input class="form-control mr-sm-2" type="search" placeholder="Enter Name" size="80" aria-label="Search" id="searchName" required>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search">Generate</button>
+        </form>
+        <br />
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">Gender</th>
+                </tr>
+            </thead>
+            <tbody >
+				<tr>
+					<td>1</td>
+					<td>Mohit</td>
+					<td>IT</td>
+					<td>Male</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Rohit</td>
+					<td>Finance</td>
+					<td>Male</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Jane</td>
+					<td>Operations</td>
+					<td>Female</td>
+				</tr>
+			
+			
+			</tbody>
+        </table>
+    </div>
+			
+               
             </div>
         </div>
     </div>
